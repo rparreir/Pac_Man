@@ -7,3 +7,6 @@ build/
 dist/
 en.subject.pdf
 *.zip
+
+.pytest_cache/
+tests/

@@ -15,4 +15,8 @@ mazegenerator = { path = "lib/mazegenerator-2.1.0-py3-none-any.whl" }
 dev = [
     "flake8>=7.4.1",
     "mypy>=2.4.1",
+    "pytest>=9.2.0",
 ]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
