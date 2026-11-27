@@ -1,3 +1,11 @@
+from .maze import (
+    DIRECTION_DELTAS,
+    Direction,
+    MazeAdapterError,
+    MazeData,
+    generate_level_maze,
+    generate_maze,
+)
 from .parse import (
     ConfigError,
     GameConfig,
@@ -7,9 +15,15 @@ from .parse import (
 )
 
 __all__ = [
+    "DIRECTION_DELTAS",
     "ConfigError",
+    "Direction",
     "GameConfig",
     "LevelConfig",
+    "MazeAdapterError",
+    "MazeData",
+    "generate_level_maze",
+    "generate_maze",
     "load_config",
     "parse_config_args",
 ]
